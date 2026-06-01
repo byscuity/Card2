@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+body{
+  margin: 0;
+  height: 100vh;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  front-family: consolas;
+}
+
+.card{
+  position: relative;
+  cursor: pointer;
+  width: 300px;
+}
+
+.face{
+  position:relative;
+  width: 300px;
+  heigth: 200px;
+  background-color: #333;
+  display: flex;
+  flex-direction: colum;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  transform: translateY(100px);
+  z-index: 1;
+}
+
+.card:hover .face1{
+  background-color: #ff0057;
+  transform: translateY(0);
+}
